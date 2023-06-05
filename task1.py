@@ -15,5 +15,3 @@ if side_a < side_b + side_c and side_b < side_a + side_c and side_c < side_a + s
     else: print('Треугольник со сторонами', side_a, ',', side_b, 'и', side_c, '- разносторонний')
 
 else: print('Треугольник с такими сторонами не может существовать.')
-
-
