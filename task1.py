@@ -12,6 +12,7 @@ if side_a < side_b + side_c and side_b < side_a + side_c and side_c < side_a + s
         print('Треугольник со сторонами', side_a, ',', side_b, 'и', side_c, '- равносторонний')
     elif side_a == side_b or side_a == side_c or side_b == side_c:
         print('Треугольник со сторонами', side_a, ',', side_b, 'и', side_c, '- равнобедренный')
-    else: print('Треугольник со сторонами', side_a, ',', side_b, 'и', side_c, '- разносторонний')
+    else:
+        print('Треугольник со сторонами', side_a, ',', side_b, 'и', side_c, '- разносторонний')
 
 else: print('Треугольник с такими сторонами не может существовать.')
